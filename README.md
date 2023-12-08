@@ -2,6 +2,8 @@
 
 Welcome to my Git And GitHub Exploration repository! I'm currently on a learning journey exploring various GitHub features. Here's what I'm working on:
 
+<img align="right" alt="Coding" width="400" src="https://github.com/nazmusweb-coding/Git-And-GitHub-Exploration/blob/main/assets/Luffy.gif">
+
 - **Merging:** Understanding how to merge branches and resolve conflicts.
 - **Pull Requests:** Opening and managing pull requests for collaborative development.
 - **Issues:** Reporting and addressing issues to improve the codebase.
