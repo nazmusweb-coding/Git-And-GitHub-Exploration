@@ -11,7 +11,7 @@ Welcome to my Git And GitHub Exploration repository! I'm currently on a learning
 - **Starring:** Showing appreciation by starring repositories.
 - **Version Control:** Grasping the concepts of version control and Git.
 
-**Note:** With time, there will be more topics added to this repository as the exploration continues.
+>**Note:** With time, there will be more topics added to this repository as the exploration continues.
 
 I'm excited about this journey, and you're welcome to join me! If you have suggestions, feedback, or want to collaborate, feel free to [open an issue](https://github.com/nazmusweb-coding/Git-And-GitHub-Exploration/issues/new) or [reach out](mailto:nazmusweb.coding@gmail.com).
 
