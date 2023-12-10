@@ -29,7 +29,7 @@ The git add . command is another way to stage changes in your working directory 
 It's similar to git add -A in that it stages all changes, including modifications, deletions, and new files.
 [for all files(ignores .gitignore)]
 ---------------------------------------------------------------------------------------------------------------
-differnces between: git add[filename], git add -u, git add -A/all, git add .
+differnces between git add[filename], git add -u, git add -A/all, git add .
  _______________________________________________________________________________________________________________________________________________________
 | Command	            |   Stages Modified and Deleted Files	|   Stages New Files	|   Stages Already Staged Files	   |    Stages Ignored Files    |
 |-----------------------|---------------------------------------|-----------------------|----------------------------------|----------------------------|
