@@ -1,0 +1,32 @@
+Here are all the basic commands to manage branch:
+
+--------------------------------------------------------------
+>git branch -m <old_name> <new_name>
+
+This command renames a branch.
+[for renaming a branch]
+--------------------------------------------------------------
+>git checkout <branch_name>
+
+This command is to switch to a different branch.
+[for switching to a different branch]
+--------------------------------------------------------------
+>git merge <branch_name>
+
+This command merges another branch into the current branch.
+[for merging branches]
+--------------------------------------------------------------
+Git management commands comparison and their use cases
+ ______________________________________________________________________________________________________________________________________________________________________________________________________
+| Command                                   | Description                                             		    | Use Case                                                                             |
+|-------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| git branch -m <old_name> <new_name>       | Renames an existing branch to a new name.               		    | Useful when you want to change the name of an existing branch.              	       |
+| git checkout <branch_name>                | Switches to the specified branch.                       		    | Commonly used to navigate between different branches in the repository.              |
+| git checkout -b [branch_name]             | Creates and switches to a new branch in one command.    		    | Convenient for quickly creating and switching to a new branch.             	       |
+| git merge <branch_name>                   | Merges changes from the specified branch into the current branch. | Integrates changes made in one branch into another, often used for feature branches. |
+|___________________________________________|___________________________________________________________________|______________________________________________________________________________________|
+---------------------------------------------------------------
+
+# N.B. - 
+If you find any missing information, inaccuracies, or have suggestions for improvement, please feel free to contribute.
+Your insights and expertise will help in the continuous development and enhancement of this resource.
