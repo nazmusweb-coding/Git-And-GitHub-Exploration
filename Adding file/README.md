@@ -2,6 +2,14 @@
 
 ### `git add [filename]`
 
+```bash
+git add filename
+```
+or
+```bash
+git add "foldername"
+```
+
 This command is used to stage a specific file for the next commit. It tells Git to start tracking the changes made to the specified file and includes those changes in the staging area.
 
 *Usage:* `[for particular single files]`
@@ -9,6 +17,10 @@ This command is used to stage a specific file for the next commit. It tells Git 
 ---
 
 ### `git add -u`
+
+```bash
+git add -u
+```
 
 This command stages changes for all tracked files that have been modified or deleted. It does not include untracked files that haven't been added to the repository.
 
@@ -18,6 +30,10 @@ This command stages changes for all tracked files that have been modified or del
 
 ### `git add -A`
 
+```bash
+git add -A
+```
+
 This command stages all changes in your working directory for the next commit. It includes changes to tracked files (modified or deleted), new files, and changes to files that are already staged. It's a convenient way to ensure that all changes, including new and modified files, are included in the staging area.
 
 *Usage:* `[for all (tracked, untracked) files (ignores .gitignore)]`
@@ -25,6 +41,10 @@ This command stages all changes in your working directory for the next commit. I
 ---
 
 ### `git add .`
+
+```bash
+git add .
+```
 
 The `git add .` command stages changes in your working directory for the next commit. It's similar to `git add -A` in that it stages all changes, including modifications, deletions, and new files.
 
