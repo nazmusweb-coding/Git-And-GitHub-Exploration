@@ -32,6 +32,7 @@ It's similar to git add -A in that it stages all changes, including modification
 differnces between: git add[filename], git add -u, git add -A/all, git add .
  _______________________________________________________________________________________________________________________________________________________
 | Command	            |   Stages Modified and Deleted Files	|   Stages New Files	|   Stages Already Staged Files	   |    Stages Ignored Files    |
+|-----------------------|---------------------------------------|-----------------------|----------------------------------|----------------------------|
 | git add [filename]    |      Yes (for the specified file)     |          Yes          |               No                 |             No             |
 | git add -u	        |                  Yes	                |          No	        |               No	               |             No             |
 | git add -A	        |                  Yes	                |          Yes	        |               Yes	               |             No             |
