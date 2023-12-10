@@ -30,13 +30,13 @@ It's similar to git add -A in that it stages all changes, including modification
 [for all files(ignores .gitignore)]
 ---------------------------------------------------------------------------------------------------------------
 differnces between: git add[filename], git add -u, git add -A/all, git add .
-____________________________________________________________________________________________________________________________________________________
-Command	            |    Stages Modified and Deleted Files	|   Stages New Files	  |   Stages Already Staged Files	   |    Stages Ignored Files    |
-git add [filename]  |       Yes (for the specified file)    |          Yes          |               No                 |             No             |
-git add -u	        |                   Yes	                |          No	          |               No	               |             No             |
-git add -A	        |                   Yes	                |          Yes	        |               Yes	               |             No             |
-git add .	          |                   Yes	                |          Yes	        |               Yes	               |   No,Respects .gitignore   |
-____________________|_______________________________________|_______________________|__________________________________|____________________________|
+ _______________________________________________________________________________________________________________________________________________________
+| Command	            |   Stages Modified and Deleted Files	|   Stages New Files	|   Stages Already Staged Files	   |    Stages Ignored Files    |
+| git add [filename]    |      Yes (for the specified file)     |          Yes          |               No                 |             No             |
+| git add -u	        |                  Yes	                |          No	        |               No	               |             No             |
+| git add -A	        |                  Yes	                |          Yes	        |               Yes	               |             No             |
+| git add .	            |                  Yes	                |          Yes	        |               Yes	               |   No,Respects .gitignore   |
+|_______________________|_______________________________________|_______________________|__________________________________|____________________________|
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # N.B. - 
