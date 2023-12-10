@@ -3,9 +3,10 @@ Here are all the basic commands to add:
 ----------------------------------------------------------------------------------------------------------
 >git add [filename]
 
-This command is used to stage a specific file for the next commit. This command tells
-Git to start tracking the changes made to the specified file and includes those changes
-in the staging area.
+This command is used to stage a specific file or folder for the next commit. This command tells
+Git to start tracking the changes made to the specified file or folder and includes those changes
+in the staging area. You have to use "" double quotation for adding a folder if that folder name
+contains space.
 [for perticular single files]
 ---------------------------------------------------------------------------------------------------------------
 >git add -u 
@@ -30,11 +31,11 @@ It's similar to git add -A in that it stages all changes, including modification
 ---------------------------------------------------------------------------------------------------------------
 differnces between: git add[filename], git add -u, git add -A/all, git add .
 ____________________________________________________________________________________________________________________________________________________
-Command	            |    Stages Modified and Deleted Files	|   Stages New Files	|   Stages Already Staged Files	   |    Stages Ignored Files    |
+Command	            |    Stages Modified and Deleted Files	|   Stages New Files	  |   Stages Already Staged Files	   |    Stages Ignored Files    |
 git add [filename]  |       Yes (for the specified file)    |          Yes          |               No                 |             No             |
-git add -u	        |                   Yes	                |          No	        |               No	               |             No             |
+git add -u	        |                   Yes	                |          No	          |               No	               |             No             |
 git add -A	        |                   Yes	                |          Yes	        |               Yes	               |             No             |
-git add .	        |                   Yes	                |          Yes	        |               Yes	               |   No,Respects .gitignore   |
+git add .	          |                   Yes	                |          Yes	        |               Yes	               |   No,Respects .gitignore   |
 ____________________|_______________________________________|_______________________|__________________________________|____________________________|
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
