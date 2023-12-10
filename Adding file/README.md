@@ -10,7 +10,7 @@ or
 git add "foldername"
 ```
 
-This command is used to stage a specific file for the next commit. It tells Git to start tracking the changes made to the specified file and includes those changes in the staging area.
+This command is used to stage a specific file or folder for the next commit. It tells Git to start tracking the changes made to the specified file or folder and includes those changes in the staging area. You have to use "" double quotation for adding a folder if that folder name contains space.
 
 *Usage:* `[for particular single files]`
 
